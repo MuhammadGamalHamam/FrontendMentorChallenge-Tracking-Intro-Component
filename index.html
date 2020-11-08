@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Project tracking intro component</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header__background"></div>
+    <div class="header__container">
+      <a href="/" class="header__logo" aria-current="page">
+        <img src="./images/logo.svg" alt="logo">
+      </a>
+      <button class="header__menu-btn" aria-label="Menu Toggle"></button>
+
+      <nav class="nav" data-hidden="true">
+        <ul class="nav__list">
+          <li><a href="#" class="nav__item">Product</a></li>
+          <li><a href="#" class="nav__item">Features</a></li>
+          <li><a href="#" class="nav__item">Pricing</a></li>
+          <li>
+            <div class="nav__divider"></div>
+          </li>
+          <li><a href="#" class="nav__item--accent">Login</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <main>
+
+    <section class="intro">
+      <div class="intro__image fade-right-in">
+        <img src="./images/illustration-devices.svg" alt="">
+      </div>
+      <div class="intro__container">
+
+        <div class="intro__badge fade-in">
+          <p class="badge">New</p>
+          <p class="text-secondary">Monograph Dashboard</p>
+        </div>
+        <h2 class="intro__heading fade-left-in delay100">Powerful insights into your team</h2>
+        <p class="intro__text fade-in delay200">Project planning and time tracking for agile teams</p>
+        <div class="intro__cta fade-bottom-in delay400">
+          <button class="intro__button">Schedule a demo</button>
+          <p class="intro__cta-info">to see a preview</p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
